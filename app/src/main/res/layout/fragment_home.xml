@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D5B2EC"
+    android:padding="20sp"
+    tools:context=".ui.home.HomeFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="@color/black"
+        android:layout_marginTop="25dp"
+        app:cardCornerRadius="34dp">
+
+        <TextView
+            android:id="@+id/text_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Let's go ..."
+            android:textSize="20sp"
+            android:textAllCaps="true"
+            android:background="#9D00FF"
+            android:layout_gravity="center_vertical"
+            android:textColor="#FFFFFF"
+            android:layout_margin="15dp"/>
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="price"
+            android:textSize="20sp"
+            android:background="#F48F8F"
+            android:layout_marginBottom="15dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="180dp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/heart"
+        android:layout_width="109dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/h" />
+
+    <Button
+        android:id="@+id/btnGo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What can i do today?"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
